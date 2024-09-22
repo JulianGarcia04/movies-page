@@ -1,0 +1,18 @@
+.genresSelect {
+  flex-grow: 1;
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.selectBox {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}

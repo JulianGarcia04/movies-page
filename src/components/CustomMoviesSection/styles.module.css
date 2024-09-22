@@ -1,0 +1,27 @@
+.CustomMoviesContainer {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(69 69 69);
+  overflow-y: scroll;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.CustomMoviesContainerTitle {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.MoviesContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.EmptyMoviesContainer {
+  margin: 10px 0px;
+  font-style: italic;
+  font-size: 20px;
+}

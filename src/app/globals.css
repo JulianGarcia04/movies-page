@@ -5,9 +5,23 @@ html,
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 h1 {
   text-align: center;
   font-size: 2rem;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+button {
+  border: none;
+  background: transparent;
+  width: auto;
+  height: auto;
 }

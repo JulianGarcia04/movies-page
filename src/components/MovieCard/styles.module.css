@@ -1,0 +1,88 @@
+.card {
+  width: 250px;
+  height: 100%;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0px 10px;
+}
+
+.posterContainer {
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+
+.poster {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: contain;
+}
+
+.info {
+  padding: 15px;
+  position: relative;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  color: #ffffff;
+  width: 80%;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.releaseDate {
+  font-size: 14px;
+  color: #888;
+  margin: 0 0 10px 0;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ratingCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #4caf50 calc(var(--rating) * 3.6deg),
+    #2c2c2c 0deg
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingText {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.favoriteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.heartIcon {
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.favoriteButton:hover .heartIcon {
+  color: #ff4081;
+}

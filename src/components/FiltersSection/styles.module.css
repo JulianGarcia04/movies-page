@@ -1,0 +1,39 @@
+.filtersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.searchInputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.searchBox {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.searchButton {
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

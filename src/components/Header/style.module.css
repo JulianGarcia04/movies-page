@@ -1,0 +1,35 @@
+.HeaderContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  height: 70px;
+  width: 100%;
+  z-index: 100;
+}
+
+.HeaderOptionsSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.HeaderOptionsSection > ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.HeaderOptionsSection > ul > li > a {
+  text-decoration: none;
+}
+
+.HeaderUserSection {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 0px 10px;
+}
