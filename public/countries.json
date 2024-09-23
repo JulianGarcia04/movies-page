@@ -1,0 +1,2189 @@
+[
+  {
+    "code": "AF",
+    "name": "Afganistán",
+    "prefix": "+93",
+    "location": {
+      "lat": 33.93911,
+      "lng": 67.709953
+    }
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "prefix": "+355",
+    "location": {
+      "lat": 41.153332,
+      "lng": 20.168331
+    }
+  },
+  {
+    "code": "DE",
+    "name": "Alemania",
+    "prefix": "+49",
+    "location": {
+      "lat": 51.165691,
+      "lng": 10.451526
+    }
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "prefix": "+376",
+    "location": {
+      "lat": 42.506285,
+      "lng": 1.521801
+    }
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "prefix": "+244",
+    "location": {
+      "lat": -11.202692,
+      "lng": 17.873887
+    }
+  },
+  {
+    "code": "AI",
+    "name": "Anguila",
+    "prefix": "+1",
+    "location": {
+      "lat": 4.5935047,
+      "lng": -74.09627379999999
+    }
+  },
+  {
+    "code": "AG",
+    "name": "Antigua y Barbuda",
+    "prefix": "+1",
+    "location": {
+      "lat": 17.060816,
+      "lng": -61.796428
+    }
+  },
+  {
+    "code": "SA",
+    "name": "Arabia Saudita",
+    "prefix": "+966",
+    "location": {
+      "lat": 23.885942,
+      "lng": 45.079162
+    }
+  },
+  {
+    "code": "DZ",
+    "name": "Argelia",
+    "prefix": "+213",
+    "location": {
+      "lat": 28.033886,
+      "lng": 1.659626
+    }
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "prefix": "+54",
+    "location": {
+      "lat": -38.416097,
+      "lng": -63.61667199999999
+    }
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "prefix": "+374",
+    "location": {
+      "lat": 4.535000399999999,
+      "lng": -75.6756888
+    }
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "prefix": "+297",
+    "location": {
+      "lat": 12.52111,
+      "lng": -69.968338
+    }
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "prefix": "+61",
+    "location": {
+      "lat": -25.274398,
+      "lng": 133.775136
+    }
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "prefix": "+43",
+    "location": {
+      "lat": 47.516231,
+      "lng": 14.550072
+    }
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaiyán",
+    "prefix": "+994",
+    "location": {
+      "lat": 40.143105,
+      "lng": 47.576927
+    }
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "prefix": "+1",
+    "location": {
+      "lat": 25.03428,
+      "lng": -77.39627999999999
+    }
+  },
+  {
+    "code": "BD",
+    "name": "Bangladés",
+    "prefix": "+880",
+    "location": {
+      "lat": 23.684994,
+      "lng": 90.356331
+    }
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "prefix": "+1",
+    "location": {
+      "lat": 13.193887,
+      "lng": -59.543198
+    }
+  },
+  {
+    "code": "BH",
+    "name": "Baréin",
+    "prefix": "+973",
+    "location": {
+      "lat": 26.0667,
+      "lng": 50.5577
+    }
+  },
+  {
+    "code": "BZ",
+    "name": "Belice",
+    "prefix": "+501",
+    "location": {
+      "lat": 17.189877,
+      "lng": -88.49765
+    }
+  },
+  {
+    "code": "BJ",
+    "name": "Benín",
+    "prefix": "+229",
+    "location": {
+      "lat": 9.30769,
+      "lng": 2.315834
+    }
+  },
+  {
+    "code": "BM",
+    "name": "Bermudas",
+    "prefix": "+1",
+    "location": {
+      "lat": 4.608191,
+      "lng": -74.18197479999999
+    }
+  },
+  {
+    "code": "BY",
+    "name": "Bielorrusia",
+    "prefix": "+375",
+    "location": {
+      "lat": 53.709807,
+      "lng": 27.953389
+    }
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "prefix": "+591",
+    "location": {
+      "lat": -16.290154,
+      "lng": -63.58865299999999
+    }
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia y Herzegovina",
+    "prefix": "+387",
+    "location": {
+      "lat": 43.915886,
+      "lng": 17.679076
+    }
+  },
+  {
+    "code": "BW",
+    "name": "Botsuana",
+    "prefix": "+267",
+    "location": {
+      "lat": -22.328474,
+      "lng": 24.684866
+    }
+  },
+  {
+    "code": "BR",
+    "name": "Brasil",
+    "prefix": "+55",
+    "location": {
+      "lat": -14.235004,
+      "lng": -51.92528
+    }
+  },
+  {
+    "code": "BN",
+    "name": "Brunéi",
+    "prefix": "+673",
+    "location": {
+      "lat": 4.535277,
+      "lng": 114.727669
+    }
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "prefix": "+359",
+    "location": {
+      "lat": 42.733883,
+      "lng": 25.48583
+    }
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "prefix": "+226",
+    "location": {
+      "lat": 12.238333,
+      "lng": -1.561593
+    }
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "prefix": "+257",
+    "location": {
+      "lat": -3.373056,
+      "lng": 29.918886
+    }
+  },
+  {
+    "code": "BT",
+    "name": "Bután",
+    "prefix": "+975",
+    "location": {
+      "lat": 27.514162,
+      "lng": 90.433601
+    }
+  },
+  {
+    "code": "BE",
+    "name": "Bélgica",
+    "prefix": "+32",
+    "location": {
+      "lat": 50.503887,
+      "lng": 4.469936
+    }
+  },
+  {
+    "code": "CV",
+    "name": "Cabo Verde",
+    "prefix": "+238",
+    "location": {
+      "lat": 16.5388,
+      "lng": -23.0418
+    }
+  },
+  {
+    "code": "KH",
+    "name": "Camboya",
+    "prefix": "+855",
+    "location": {
+      "lat": 12.565679,
+      "lng": 104.990963
+    }
+  },
+  {
+    "code": "CM",
+    "name": "Camerún",
+    "prefix": "+237",
+    "location": {
+      "lat": 7.369721999999999,
+      "lng": 12.354722
+    }
+  },
+  {
+    "code": "CA",
+    "name": "Canadá",
+    "prefix": "+1",
+    "location": {
+      "lat": 56.130366,
+      "lng": -106.346771
+    }
+  },
+  {
+    "code": "BQ",
+    "name": "Caribe neerlandés",
+    "prefix": "+599",
+    "location": {
+      "lat": 12.1783611,
+      "lng": -68.2385339
+    }
+  },
+  {
+    "code": "QA",
+    "name": "Catar",
+    "prefix": "+974",
+    "location": {
+      "lat": 25.354826,
+      "lng": 51.183884
+    }
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "prefix": "+235",
+    "location": {
+      "lat": 15.454166,
+      "lng": 18.732207
+    }
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "prefix": "+56",
+    "location": {
+      "lat": -35.675147,
+      "lng": -71.542969
+    }
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "prefix": "+86",
+    "location": {
+      "lat": 35.86166,
+      "lng": 104.195397
+    }
+  },
+  {
+    "code": "CY",
+    "name": "Chipre",
+    "prefix": "+357",
+    "location": {
+      "lat": 35.126413,
+      "lng": 33.429859
+    }
+  },
+  {
+    "code": "VA",
+    "name": "Ciudad del Vaticano",
+    "prefix": "+39",
+    "location": {
+      "lat": 41.902916,
+      "lng": 12.453389
+    }
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "prefix": "+57",
+    "location": {
+      "lat": 4.570868,
+      "lng": -74.297333
+    }
+  },
+  {
+    "code": "KM",
+    "name": "Comoras",
+    "prefix": "+269",
+    "location": {
+      "lat": -11.6455,
+      "lng": 43.3333
+    }
+  },
+  {
+    "code": "CG",
+    "name": "Congo",
+    "prefix": "+242",
+    "location": {
+      "lat": -4.038333,
+      "lng": 21.758664
+    }
+  },
+  {
+    "code": "KP",
+    "name": "Corea del Norte",
+    "prefix": "+850",
+    "location": {
+      "lat": 40.339852,
+      "lng": 127.510093
+    }
+  },
+  {
+    "code": "KR",
+    "name": "Corea del Sur",
+    "prefix": "+82",
+    "location": {
+      "lat": 35.907757,
+      "lng": 127.766922
+    }
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "prefix": "+506",
+    "location": {
+      "lat": 9.748916999999999,
+      "lng": -83.753428
+    }
+  },
+  {
+    "code": "CI",
+    "name": "Costa de Marfil",
+    "prefix": "+225",
+    "location": {
+      "lat": 7.539988999999999,
+      "lng": -5.547079999999999
+    }
+  },
+  {
+    "code": "HR",
+    "name": "Croacia",
+    "prefix": "+385",
+    "location": {
+      "lat": 45.1,
+      "lng": 15.2000001
+    }
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "prefix": "+53",
+    "location": {
+      "lat": 21.521757,
+      "lng": -77.781167
+    }
+  },
+  {
+    "code": "CW",
+    "name": "Curazao",
+    "prefix": "+599",
+    "location": {
+      "lat": 12.16957,
+      "lng": -68.99002
+    }
+  },
+  {
+    "code": "DK",
+    "name": "Dinamarca",
+    "prefix": "+45",
+    "location": {
+      "lat": 56.26392,
+      "lng": 9.501785
+    }
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "prefix": "+1",
+    "location": {
+      "lat": 15.414999,
+      "lng": -61.37097600000001
+    }
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "prefix": "+593",
+    "location": {
+      "lat": -1.831239,
+      "lng": -78.18340599999999
+    }
+  },
+  {
+    "code": "EG",
+    "name": "Egipto",
+    "prefix": "+20",
+    "location": {
+      "lat": 26.820553,
+      "lng": 30.802498
+    }
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "prefix": "+503",
+    "location": {
+      "lat": 13.794185,
+      "lng": -88.89653
+    }
+  },
+  {
+    "code": "AE",
+    "name": "Emiratos Árabes Unidos",
+    "prefix": "+971",
+    "location": {
+      "lat": 23.424076,
+      "lng": 53.847818
+    }
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "prefix": "+291",
+    "location": {
+      "lat": 15.179384,
+      "lng": 39.782334
+    }
+  },
+  {
+    "code": "SK",
+    "name": "Eslovaquia",
+    "prefix": "+421",
+    "location": {
+      "lat": 48.669026,
+      "lng": 19.699024
+    }
+  },
+  {
+    "code": "SI",
+    "name": "Eslovenia",
+    "prefix": "+386",
+    "location": {
+      "lat": 46.151241,
+      "lng": 14.995463
+    }
+  },
+  {
+    "code": "ES",
+    "name": "España",
+    "prefix": "+34",
+    "location": {
+      "lat": 40.46366700000001,
+      "lng": -3.74922
+    }
+  },
+  {
+    "code": "US",
+    "name": "Estados Unidos",
+    "prefix": "+1",
+    "location": {
+      "lat": 37.09024,
+      "lng": -95.712891
+    }
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "prefix": "+372",
+    "location": {
+      "lat": 58.595272,
+      "lng": 25.0136071
+    }
+  },
+  {
+    "code": "ET",
+    "name": "Etiopía",
+    "prefix": "+251",
+    "location": {
+      "lat": 9.145000000000001,
+      "lng": 40.489673
+    }
+  },
+  {
+    "code": "PH",
+    "name": "Filipinas",
+    "prefix": "+63",
+    "location": {
+      "lat": 12.879721,
+      "lng": 121.774017
+    }
+  },
+  {
+    "code": "FI",
+    "name": "Finlandia",
+    "prefix": "+358",
+    "location": {
+      "lat": 61.92410999999999,
+      "lng": 25.7481511
+    }
+  },
+  {
+    "code": "FJ",
+    "name": "Fiyi",
+    "prefix": "+679",
+    "location": {
+      "lat": -17.713371,
+      "lng": 178.065032
+    }
+  },
+  {
+    "code": "FR",
+    "name": "Francia",
+    "prefix": "+33",
+    "location": {
+      "lat": 46.227638,
+      "lng": 2.213749
+    }
+  },
+  {
+    "code": "GA",
+    "name": "Gabón",
+    "prefix": "+241",
+    "location": {
+      "lat": -0.803689,
+      "lng": 11.609444
+    }
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "prefix": "+220",
+    "location": {
+      "lat": 13.443182,
+      "lng": -15.310139
+    }
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "prefix": "+995",
+    "location": {
+      "lat": 42.315407,
+      "lng": 43.35689199999999
+    }
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "prefix": "+233",
+    "location": {
+      "lat": 7.946527,
+      "lng": -1.023194
+    }
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "prefix": "+350",
+    "location": {
+      "lat": 36.140751,
+      "lng": -5.353585
+    }
+  },
+  {
+    "code": "GD",
+    "name": "Granada",
+    "prefix": "+1",
+    "location": {
+      "lat": 37.1774605,
+      "lng": -3.5984368
+    }
+  },
+  {
+    "code": "GR",
+    "name": "Grecia",
+    "prefix": "+30",
+    "location": {
+      "lat": 39.074208,
+      "lng": 21.824312
+    }
+  },
+  {
+    "code": "GL",
+    "name": "Groenlandia",
+    "prefix": "+299",
+    "location": {
+      "lat": 71.706936,
+      "lng": -42.604303
+    }
+  },
+  {
+    "code": "GP",
+    "name": "Guadalupe",
+    "prefix": "+590",
+    "location": {
+      "lat": 3.6965989,
+      "lng": -73.7001555
+    }
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "prefix": "+1",
+    "location": {
+      "lat": 13.444304,
+      "lng": 144.793731
+    }
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "prefix": "+502",
+    "location": {
+      "lat": 15.783471,
+      "lng": -90.23075899999999
+    }
+  },
+  {
+    "code": "GF",
+    "name": "Guayana Francesa",
+    "prefix": "+594",
+    "location": {
+      "lat": 3.933889,
+      "lng": -53.125782
+    }
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "prefix": "+44",
+    "location": {
+      "lat": 49.4481982,
+      "lng": -2.58949
+    }
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "prefix": "+224",
+    "location": {
+      "lat": 9.945587,
+      "lng": -9.696645
+    }
+  },
+  {
+    "code": "GQ",
+    "name": "Guinea Ecuatorial",
+    "prefix": "+240",
+    "location": {
+      "lat": 1.650801,
+      "lng": 10.267895
+    }
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bisáu",
+    "prefix": "+245",
+    "location": {
+      "lat": 11.803749,
+      "lng": -15.180413
+    }
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "prefix": "+592",
+    "location": {
+      "lat": 4.860416,
+      "lng": -58.93018
+    }
+  },
+  {
+    "code": "HT",
+    "name": "Haití",
+    "prefix": "+509",
+    "location": {
+      "lat": 18.971187,
+      "lng": -72.285215
+    }
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "prefix": "+504",
+    "location": {
+      "lat": 15.199999,
+      "lng": -86.241905
+    }
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "prefix": "+852",
+    "location": {
+      "lat": 22.3193039,
+      "lng": 114.1693611
+    }
+  },
+  {
+    "code": "HU",
+    "name": "Hungría",
+    "prefix": "+36",
+    "location": {
+      "lat": 47.162494,
+      "lng": 19.5033041
+    }
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "prefix": "+91",
+    "location": {
+      "lat": 20.593684,
+      "lng": 78.96288
+    }
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "prefix": "+62",
+    "location": {
+      "lat": -0.789275,
+      "lng": 113.921327
+    }
+  },
+  {
+    "code": "IQ",
+    "name": "Irak",
+    "prefix": "+964",
+    "location": {
+      "lat": 33.223191,
+      "lng": 43.679291
+    }
+  },
+  {
+    "code": "IE",
+    "name": "Irlanda",
+    "prefix": "+353",
+    "location": {
+      "lat": 53.41291,
+      "lng": -8.24389
+    }
+  },
+  {
+    "code": "IR",
+    "name": "Irán",
+    "prefix": "+98",
+    "location": {
+      "lat": 32.427908,
+      "lng": 53.688046
+    }
+  },
+  {
+    "code": "NF",
+    "name": "Isla Norfolk",
+    "prefix": "+672",
+    "location": {
+      "lat": -29.040835,
+      "lng": 167.954712
+    }
+  },
+  {
+    "code": "IM",
+    "name": "Isla de Man",
+    "prefix": "+44",
+    "location": {
+      "lat": 54.236107,
+      "lng": -4.548056
+    }
+  },
+  {
+    "code": "CX",
+    "name": "Isla de Navidad",
+    "prefix": "+61",
+    "location": {
+      "lat": -10.447525,
+      "lng": 105.690449
+    }
+  },
+  {
+    "code": "IS",
+    "name": "Islandia",
+    "prefix": "+354",
+    "location": {
+      "lat": 64.963051,
+      "lng": -19.020835
+    }
+  },
+  {
+    "code": "KY",
+    "name": "Islas Caimán",
+    "prefix": "+1",
+    "location": {
+      "lat": 19.3133,
+      "lng": -81.2546
+    }
+  },
+  {
+    "code": "CC",
+    "name": "Islas Cocos",
+    "prefix": "+61",
+    "location": {
+      "lat": -12.164165,
+      "lng": 96.87095599999999
+    }
+  },
+  {
+    "code": "CK",
+    "name": "Islas Cook",
+    "prefix": "+682",
+    "location": {
+      "lat": -21.236736,
+      "lng": -159.777671
+    }
+  },
+  {
+    "code": "FO",
+    "name": "Islas Feroe",
+    "prefix": "+298",
+    "location": {
+      "lat": 61.89263500000001,
+      "lng": -6.9118061
+    }
+  },
+  {
+    "code": "FK",
+    "name": "Islas Malvinas",
+    "prefix": "+500",
+    "location": {
+      "lat": -51.796253,
+      "lng": -59.523613
+    }
+  },
+  {
+    "code": "MP",
+    "name": "Islas Marianas del Norte",
+    "prefix": "+1",
+    "location": {
+      "lat": 15.0979,
+      "lng": 145.6739
+    }
+  },
+  {
+    "code": "MH",
+    "name": "Islas Marshall",
+    "prefix": "+692",
+    "location": {
+      "lat": 7.131474,
+      "lng": 171.184478
+    }
+  },
+  {
+    "code": "SB",
+    "name": "Islas Salomón",
+    "prefix": "+677",
+    "location": {
+      "lat": -9.64571,
+      "lng": 160.156194
+    }
+  },
+  {
+    "code": "TC",
+    "name": "Islas Turcas y Caicos",
+    "prefix": "+1",
+    "location": {
+      "lat": 21.694025,
+      "lng": -71.797928
+    }
+  },
+  {
+    "code": "VG",
+    "name": "Islas Vírgenes Británicas",
+    "prefix": "+1",
+    "location": {
+      "lat": 18.420695,
+      "lng": -64.639968
+    }
+  },
+  {
+    "code": "VI",
+    "name": "Islas Vírgenes de los Estados Unidos",
+    "prefix": "+1",
+    "location": {
+      "lat": 18.335765,
+      "lng": -64.896335
+    }
+  },
+  {
+    "code": "AX",
+    "name": "Islas Åland",
+    "prefix": "+358",
+    "location": {
+      "lat": 60.1785247,
+      "lng": 19.9156105
+    }
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "prefix": "+972",
+    "location": {
+      "lat": 31.046051,
+      "lng": 34.851612
+    }
+  },
+  {
+    "code": "IT",
+    "name": "Italia",
+    "prefix": "+39",
+    "location": {
+      "lat": 41.87194,
+      "lng": 12.56738
+    }
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "prefix": "+1",
+    "location": {
+      "lat": 18.109581,
+      "lng": -77.297508
+    }
+  },
+  {
+    "code": "JP",
+    "name": "Japón",
+    "prefix": "+81",
+    "location": {
+      "lat": 36.204824,
+      "lng": 138.252924
+    }
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "prefix": "+44",
+    "location": {
+      "lat": 49.2137711,
+      "lng": -2.1357662
+    }
+  },
+  {
+    "code": "JO",
+    "name": "Jordania",
+    "prefix": "+962",
+    "location": {
+      "lat": 30.585164,
+      "lng": 36.238414
+    }
+  },
+  {
+    "code": "KZ",
+    "name": "Kazajistán",
+    "prefix": "+7",
+    "location": {
+      "lat": 48.019573,
+      "lng": 66.923684
+    }
+  },
+  {
+    "code": "KE",
+    "name": "Kenia",
+    "prefix": "+254",
+    "location": {
+      "lat": -0.023559,
+      "lng": 37.906193
+    }
+  },
+  {
+    "code": "KG",
+    "name": "Kirguistán",
+    "prefix": "+996",
+    "location": {
+      "lat": 41.20438,
+      "lng": 74.766098
+    }
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "prefix": "+686",
+    "location": {
+      "lat": 1.8368976,
+      "lng": -157.3768317
+    }
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "prefix": "+383",
+    "location": {
+      "lat": 42.6026359,
+      "lng": 20.902977
+    }
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "prefix": "+965",
+    "location": {
+      "lat": 29.31166,
+      "lng": 47.481766
+    }
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "prefix": "+856",
+    "location": {
+      "lat": 19.85627,
+      "lng": 102.495496
+    }
+  },
+  {
+    "code": "LS",
+    "name": "Lesoto",
+    "prefix": "+266",
+    "location": {
+      "lat": -29.609988,
+      "lng": 28.233608
+    }
+  },
+  {
+    "code": "LV",
+    "name": "Letonia",
+    "prefix": "+371",
+    "location": {
+      "lat": 56.879635,
+      "lng": 24.603189
+    }
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "prefix": "+231",
+    "location": {
+      "lat": 6.428055,
+      "lng": -9.429499000000002
+    }
+  },
+  {
+    "code": "LY",
+    "name": "Libia",
+    "prefix": "+218",
+    "location": {
+      "lat": 26.3351,
+      "lng": 17.228331
+    }
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "prefix": "+423",
+    "location": {
+      "lat": 47.14103919999999,
+      "lng": 9.520935000000001
+    }
+  },
+  {
+    "code": "LT",
+    "name": "Lituania",
+    "prefix": "+370",
+    "location": {
+      "lat": 55.169438,
+      "lng": 23.881275
+    }
+  },
+  {
+    "code": "LU",
+    "name": "Luxemburgo",
+    "prefix": "+352",
+    "location": {
+      "lat": 49.815273,
+      "lng": 6.129582999999999
+    }
+  },
+  {
+    "code": "LB",
+    "name": "Líbano",
+    "prefix": "+961",
+    "location": {
+      "lat": 33.854721,
+      "lng": 35.862285
+    }
+  },
+  {
+    "code": "MO",
+    "name": "Macao",
+    "prefix": "+853",
+    "location": {
+      "lat": 22.198745,
+      "lng": 113.543873
+    }
+  },
+  {
+    "code": "MK",
+    "name": "Macedonia del Norte",
+    "prefix": "+389",
+    "location": {
+      "lat": 41.608635,
+      "lng": 21.745275
+    }
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "prefix": "+261",
+    "location": {
+      "lat": -18.766947,
+      "lng": 46.869107
+    }
+  },
+  {
+    "code": "MY",
+    "name": "Malasia",
+    "prefix": "+60",
+    "location": {
+      "lat": 4.210484,
+      "lng": 101.975766
+    }
+  },
+  {
+    "code": "MW",
+    "name": "Malaui",
+    "prefix": "+265",
+    "location": {
+      "lat": -13.254308,
+      "lng": 34.301525
+    }
+  },
+  {
+    "code": "MV",
+    "name": "Maldivas",
+    "prefix": "+960",
+    "location": {
+      "lat": 3.202778,
+      "lng": 73.22068
+    }
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "prefix": "+356",
+    "location": {
+      "lat": 35.937496,
+      "lng": 14.375416
+    }
+  },
+  {
+    "code": "ML",
+    "name": "Malí",
+    "prefix": "+223",
+    "location": {
+      "lat": 17.570692,
+      "lng": -3.996166
+    }
+  },
+  {
+    "code": "MA",
+    "name": "Marruecos",
+    "prefix": "+212",
+    "location": {
+      "lat": 31.791702,
+      "lng": -7.092619999999999
+    }
+  },
+  {
+    "code": "MQ",
+    "name": "Martinica",
+    "prefix": "+596",
+    "location": {
+      "lat": 14.641528,
+      "lng": -61.024174
+    }
+  },
+  {
+    "code": "MU",
+    "name": "Mauricio",
+    "prefix": "+230",
+    "location": {
+      "lat": -20.348404,
+      "lng": 57.55215200000001
+    }
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "prefix": "+222",
+    "location": {
+      "lat": 21.00789,
+      "lng": -10.940835
+    }
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "prefix": "+262",
+    "location": {
+      "lat": -12.8275,
+      "lng": 45.166244
+    }
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "prefix": "+691",
+    "location": {
+      "lat": 7.425554,
+      "lng": 150.550812
+    }
+  },
+  {
+    "code": "MD",
+    "name": "Moldavia",
+    "prefix": "+373",
+    "location": {
+      "lat": 47.411631,
+      "lng": 28.369885
+    }
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "prefix": "+976",
+    "location": {
+      "lat": 46.862496,
+      "lng": 103.846656
+    }
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "prefix": "+382",
+    "location": {
+      "lat": 42.708678,
+      "lng": 19.37439
+    }
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "prefix": "+1",
+    "location": {
+      "lat": 4.7169851,
+      "lng": -74.0466659
+    }
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "prefix": "+258",
+    "location": {
+      "lat": -18.665695,
+      "lng": 35.529562
+    }
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "prefix": "+95",
+    "location": {
+      "lat": 21.916221,
+      "lng": 95.955974
+    }
+  },
+  {
+    "code": "MX",
+    "name": "México",
+    "prefix": "+52",
+    "location": {
+      "lat": 23.634501,
+      "lng": -102.552784
+    }
+  },
+  {
+    "code": "MC",
+    "name": "Mónaco",
+    "prefix": "+377",
+    "location": {
+      "lat": 43.73841760000001,
+      "lng": 7.424615799999999
+    }
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "prefix": "+264",
+    "location": {
+      "lat": -22.95764,
+      "lng": 18.49041
+    }
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "prefix": "+674",
+    "location": {
+      "lat": -0.522778,
+      "lng": 166.931503
+    }
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "prefix": "+977",
+    "location": {
+      "lat": 28.394857,
+      "lng": 84.12400799999999
+    }
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "prefix": "+505",
+    "location": {
+      "lat": 12.865416,
+      "lng": -85.207229
+    }
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "prefix": "+234",
+    "location": {
+      "lat": 9.081999,
+      "lng": 8.675277
+    }
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "prefix": "+683",
+    "location": {
+      "lat": -19.054445,
+      "lng": -169.867233
+    }
+  },
+  {
+    "code": "NO",
+    "name": "Noruega",
+    "prefix": "+47",
+    "location": {
+      "lat": 60.47202399999999,
+      "lng": 8.468945999999999
+    }
+  },
+  {
+    "code": "NC",
+    "name": "Nueva Caledonia",
+    "prefix": "+687",
+    "location": {
+      "lat": -20.904305,
+      "lng": 165.618042
+    }
+  },
+  {
+    "code": "NZ",
+    "name": "Nueva Zelanda",
+    "prefix": "+64",
+    "location": {
+      "lat": -40.900557,
+      "lng": 174.885971
+    }
+  },
+  {
+    "code": "NE",
+    "name": "Níger",
+    "prefix": "+227",
+    "location": {
+      "lat": 17.607789,
+      "lng": 8.081666
+    }
+  },
+  {
+    "code": "OM",
+    "name": "Omán",
+    "prefix": "+968",
+    "location": {
+      "lat": 21.4735329,
+      "lng": 55.975413
+    }
+  },
+  {
+    "code": "PK",
+    "name": "Pakistán",
+    "prefix": "+92",
+    "location": {
+      "lat": 30.375321,
+      "lng": 69.34511599999999
+    }
+  },
+  {
+    "code": "PW",
+    "name": "Palaos",
+    "prefix": "+680",
+    "location": {
+      "lat": 7.514979999999999,
+      "lng": 134.58252
+    }
+  },
+  {
+    "code": "PS",
+    "name": "Palestina",
+    "prefix": "+970",
+    "location": {
+      "lat": 31.952162,
+      "lng": 35.233154
+    }
+  },
+  {
+    "code": "PA",
+    "name": "Panamá",
+    "prefix": "+507",
+    "location": {
+      "lat": 8.537981,
+      "lng": -80.782127
+    }
+  },
+  {
+    "code": "PG",
+    "name": "Papúa Nueva Guinea",
+    "prefix": "+675",
+    "location": {
+      "lat": -6.314992999999999,
+      "lng": 143.95555
+    }
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "prefix": "+595",
+    "location": {
+      "lat": -23.442503,
+      "lng": -58.443832
+    }
+  },
+  {
+    "code": "NL",
+    "name": "Países Bajos",
+    "prefix": "+31",
+    "location": {
+      "lat": 52.132633,
+      "lng": 5.291265999999999
+    }
+  },
+  {
+    "code": "PE",
+    "name": "Perú",
+    "prefix": "+51",
+    "location": {
+      "lat": -9.189967,
+      "lng": -75.015152
+    }
+  },
+  {
+    "code": "PF",
+    "name": "Polinesia Francesa",
+    "prefix": "+689",
+    "location": {
+      "lat": -17.679742,
+      "lng": -149.406843
+    }
+  },
+  {
+    "code": "PL",
+    "name": "Polonia",
+    "prefix": "+48",
+    "location": {
+      "lat": 51.919438,
+      "lng": 19.145136
+    }
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "prefix": "+351",
+    "location": {
+      "lat": 39.39987199999999,
+      "lng": -8.224454
+    }
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "prefix": "+1",
+    "location": {
+      "lat": 18.220833,
+      "lng": -66.590149
+    }
+  },
+  {
+    "code": "GB",
+    "name": "Reino Unido",
+    "prefix": "+44",
+    "location": {
+      "lat": 55.378051,
+      "lng": -3.435973
+    }
+  },
+  {
+    "code": "CF",
+    "name": "República Centroafricana",
+    "prefix": "+236",
+    "location": {
+      "lat": 6.611110999999999,
+      "lng": 20.939444
+    }
+  },
+  {
+    "code": "CZ",
+    "name": "República Checa",
+    "prefix": "+420",
+    "location": {
+      "lat": 49.81749199999999,
+      "lng": 15.472962
+    }
+  },
+  {
+    "code": "CD",
+    "name": "República Democrática del Congo",
+    "prefix": "+243",
+    "location": {
+      "lat": -4.038333,
+      "lng": 21.758664
+    }
+  },
+  {
+    "code": "DO",
+    "name": "República Dominicana",
+    "prefix": "+1",
+    "location": {
+      "lat": 18.735693,
+      "lng": -70.162651
+    }
+  },
+  {
+    "code": "RE",
+    "name": "Reunión",
+    "prefix": "+262",
+    "location": {
+      "lat": 3.563643,
+      "lng": -73.70892909999999
+    }
+  },
+  {
+    "code": "RW",
+    "name": "Ruanda",
+    "prefix": "+250",
+    "location": {
+      "lat": -1.940278,
+      "lng": 29.873888
+    }
+  },
+  {
+    "code": "RO",
+    "name": "Rumania",
+    "prefix": "+40",
+    "location": {
+      "lat": 45.943161,
+      "lng": 24.96676
+    }
+  },
+  {
+    "code": "RU",
+    "name": "Rusia",
+    "prefix": "+7",
+    "location": {
+      "lat": 61.52401,
+      "lng": 105.318756
+    }
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "prefix": "+685",
+    "location": {
+      "lat": -13.759029,
+      "lng": -172.104629
+    }
+  },
+  {
+    "code": "AS",
+    "name": "Samoa Americana",
+    "prefix": "+1",
+    "location": {
+      "lat": -14.270972,
+      "lng": -170.132217
+    }
+  },
+  {
+    "code": "BL",
+    "name": "San Bartolomé",
+    "prefix": "+590",
+    "location": {
+      "lat": 17.9,
+      "lng": -62.833333
+    }
+  },
+  {
+    "code": "KN",
+    "name": "San Cristóbal y Nieves",
+    "prefix": "+1",
+    "location": {
+      "lat": 17.357822,
+      "lng": -62.782998
+    }
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "prefix": "+378",
+    "location": {
+      "lat": 43.94236,
+      "lng": 12.457777
+    }
+  },
+  {
+    "code": "MF",
+    "name": "San Martín",
+    "prefix": "+590",
+    "location": {
+      "lat": 3.698492,
+      "lng": -73.697308
+    }
+  },
+  {
+    "code": "PM",
+    "name": "San Pedro y Miquelón",
+    "prefix": "+508",
+    "location": {
+      "lat": 46.8852,
+      "lng": -56.3159
+    }
+  },
+  {
+    "code": "VC",
+    "name": "San Vicente y las Granadinas",
+    "prefix": "+1",
+    "location": {
+      "lat": 12.984305,
+      "lng": -61.287228
+    }
+  },
+  {
+    "code": "SH",
+    "name": "Santa Elena, Ascensión y Tristán de Acuña",
+    "prefix": "+290",
+    "location": {
+      "lat": -15.9583317,
+      "lng": -5.7019989
+    }
+  },
+  {
+    "code": "LC",
+    "name": "Santa Lucía",
+    "prefix": "+1",
+    "location": {
+      "lat": 3.6447207,
+      "lng": -73.863207
+    }
+  },
+  {
+    "code": "ST",
+    "name": "Santo Tomé y Príncipe",
+    "prefix": "+239",
+    "location": {
+      "lat": 0.18636,
+      "lng": 6.613080999999999
+    }
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "prefix": "+221",
+    "location": {
+      "lat": 14.497401,
+      "lng": -14.452362
+    }
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "prefix": "+381",
+    "location": {
+      "lat": 44.016521,
+      "lng": 21.005859
+    }
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "prefix": "+248",
+    "location": {
+      "lat": -4.679574,
+      "lng": 55.491977
+    }
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leona",
+    "prefix": "+232",
+    "location": {
+      "lat": 8.460555,
+      "lng": -11.779889
+    }
+  },
+  {
+    "code": "SG",
+    "name": "Singapur",
+    "prefix": "+65",
+    "location": {
+      "lat": 1.352083,
+      "lng": 103.819836
+    }
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten",
+    "prefix": "+1",
+    "location": {
+      "lat": 18.04248,
+      "lng": -63.05483
+    }
+  },
+  {
+    "code": "SY",
+    "name": "Siria",
+    "prefix": "+963",
+    "location": {
+      "lat": 34.80207499999999,
+      "lng": 38.996815
+    }
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "prefix": "+252",
+    "location": {
+      "lat": 5.152149,
+      "lng": 46.199616
+    }
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "prefix": "+94",
+    "location": {
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    }
+  },
+  {
+    "code": "SZ",
+    "name": "Suazilandia",
+    "prefix": "+268",
+    "location": {
+      "lat": -26.522503,
+      "lng": 31.465866
+    }
+  },
+  {
+    "code": "ZA",
+    "name": "Sudáfrica",
+    "prefix": "+27",
+    "location": {
+      "lat": -30.559482,
+      "lng": 22.937506
+    }
+  },
+  {
+    "code": "SD",
+    "name": "Sudán",
+    "prefix": "+249",
+    "location": {
+      "lat": 12.862807,
+      "lng": 30.217636
+    }
+  },
+  {
+    "code": "SS",
+    "name": "Sudán del Sur",
+    "prefix": "+211",
+    "location": {
+      "lat": 6.876991899999999,
+      "lng": 31.3069788
+    }
+  },
+  {
+    "code": "SE",
+    "name": "Suecia",
+    "prefix": "+46",
+    "location": {
+      "lat": 60.12816100000001,
+      "lng": 18.643501
+    }
+  },
+  {
+    "code": "CH",
+    "name": "Suiza",
+    "prefix": "+41",
+    "location": {
+      "lat": 46.818188,
+      "lng": 8.227511999999999
+    }
+  },
+  {
+    "code": "SR",
+    "name": "Surinam",
+    "prefix": "+597",
+    "location": {
+      "lat": 3.919305,
+      "lng": -56.027783
+    }
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard y Jan Mayen",
+    "prefix": "+47",
+    "location": {
+      "lat": 77.55360399999999,
+      "lng": 23.6702719
+    }
+  },
+  {
+    "code": "EH",
+    "name": "Sáhara Occidental",
+    "prefix": "+212",
+    "location": {
+      "lat": 24.215527,
+      "lng": -12.885834
+    }
+  },
+  {
+    "code": "TH",
+    "name": "Tailandia",
+    "prefix": "+66",
+    "location": {
+      "lat": 15.870032,
+      "lng": 100.992541
+    }
+  },
+  {
+    "code": "TW",
+    "name": "Taiwán",
+    "prefix": "+886",
+    "location": {
+      "lat": 23.69781,
+      "lng": 120.960515
+    }
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "prefix": "+255",
+    "location": {
+      "lat": -6.369028,
+      "lng": 34.888822
+    }
+  },
+  {
+    "code": "TJ",
+    "name": "Tayikistán",
+    "prefix": "+992",
+    "location": {
+      "lat": 38.861034,
+      "lng": 71.276093
+    }
+  },
+  {
+    "code": "IO",
+    "name": "Territorio Británico del Océano Índico",
+    "prefix": "+246",
+    "location": {
+      "lat": -6.343194,
+      "lng": 71.876519
+    }
+  },
+  {
+    "code": "TL",
+    "name": "Timor Oriental",
+    "prefix": "+670",
+    "location": {
+      "lat": -8.874217,
+      "lng": 125.727539
+    }
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "prefix": "+228",
+    "location": {
+      "lat": 8.619543,
+      "lng": 0.824782
+    }
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "prefix": "+690",
+    "location": {
+      "lat": -9.200199999999999,
+      "lng": -171.8484
+    }
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "prefix": "+676",
+    "location": {
+      "lat": -21.178986,
+      "lng": -175.198242
+    }
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad y Tobago",
+    "prefix": "+1",
+    "location": {
+      "lat": 10.691803,
+      "lng": -61.222503
+    }
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistán",
+    "prefix": "+993",
+    "location": {
+      "lat": 38.969719,
+      "lng": 59.556278
+    }
+  },
+  {
+    "code": "TR",
+    "name": "Turquía",
+    "prefix": "+90",
+    "location": {
+      "lat": 38.963745,
+      "lng": 35.243322
+    }
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "prefix": "+688",
+    "location": {
+      "lat": -7.109534999999999,
+      "lng": 177.64933
+    }
+  },
+  {
+    "code": "TN",
+    "name": "Túnez",
+    "prefix": "+216",
+    "location": {
+      "lat": 33.886917,
+      "lng": 9.537499
+    }
+  },
+  {
+    "code": "UA",
+    "name": "Ucrania",
+    "prefix": "+380",
+    "location": {
+      "lat": 48.379433,
+      "lng": 31.1655799
+    }
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "prefix": "+256",
+    "location": {
+      "lat": 1.373333,
+      "lng": 32.290275
+    }
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "prefix": "+598",
+    "location": {
+      "lat": -32.522779,
+      "lng": -55.765835
+    }
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistán",
+    "prefix": "+998",
+    "location": {
+      "lat": 41.377491,
+      "lng": 64.585262
+    }
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "prefix": "+678",
+    "location": {
+      "lat": -15.376706,
+      "lng": 166.959158
+    }
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "prefix": "+58",
+    "location": {
+      "lat": 6.42375,
+      "lng": -66.58973
+    }
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "prefix": "+84",
+    "location": {
+      "lat": 14.058324,
+      "lng": 108.277199
+    }
+  },
+  {
+    "code": "WF",
+    "name": "Wallis y Futuna",
+    "prefix": "+681",
+    "location": {
+      "lat": -14.2938,
+      "lng": -178.1165
+    }
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "prefix": "+967",
+    "location": {
+      "lat": 15.552727,
+      "lng": 48.516388
+    }
+  },
+  {
+    "code": "DJ",
+    "name": "Yibuti",
+    "prefix": "+253",
+    "location": {
+      "lat": 11.825138,
+      "lng": 42.590275
+    }
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "prefix": "+260",
+    "location": {
+      "lat": -13.133897,
+      "lng": 27.849332
+    }
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabue",
+    "prefix": "+263",
+    "location": {
+      "lat": -19.015438,
+      "lng": 29.154857
+    }
+  }
+]

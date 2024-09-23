@@ -1,15 +1,17 @@
 "use client";
 
-import React from "react";
+import React, { CSSProperties } from "react";
 import Circle from "react-circle";
 
 interface Props {
   score: number;
+  textStyle?: CSSProperties;
+  style?: CSSProperties;
 }
 
-function UserScoreChart({ score }: Props): React.JSX.Element {
+function UserScoreChart({ score, textStyle, style }: Props): React.JSX.Element {
   return (
-    <div style={{ width: "auto" }}>
+    <div style={{ width: "auto", ...style }}>
       <Circle
         animate={true}
         animationDuration="1s"
@@ -20,6 +22,7 @@ function UserScoreChart({ score }: Props): React.JSX.Element {
         textStyle={{
           font: "bold 4rem Helvetica, Arial, sans-serif",
           fontSize: "90px",
+          ...textStyle,
         }}
         roundedStroke={true}
         showPercentage={true}

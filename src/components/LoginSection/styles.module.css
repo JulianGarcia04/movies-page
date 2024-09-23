@@ -1,0 +1,15 @@
+.LoginFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: "center";
+  gap: 20px;
+}
+
+.ButtonLabel {
+  width: auto;
+}
+
+.ButtonIcon {
+  width: auto;
+  margin-left: 10px;
+}
