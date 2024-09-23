@@ -3,4 +3,5 @@
   height: 100%;
   background-color: rgb(69 69 69);
   overflow-y: scroll;
+  overflow-x: hidden;
 }

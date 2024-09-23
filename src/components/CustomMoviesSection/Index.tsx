@@ -69,13 +69,14 @@ function CustomMoviesSection({
                 key={movie.id}
               >
                 {movie.hasError ? (
-                  <MovieCard hasError={movie.hasError} />
+                  <MovieCard id={movie.id} hasError={movie.hasError} />
                 ) : (
                   <MovieCard
+                    id={movie.id}
                     hasError={movie.hasError}
                     title={movie.title}
                     posterUrl={movie.poster_path}
-                    rating={movie.favorite_count}
+                    rating={Math.round(movie.vote_average * 10)}
                     releaseDate={movie.release_date}
                   />
                 )}

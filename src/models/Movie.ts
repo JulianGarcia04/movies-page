@@ -22,26 +22,38 @@ export const MovieSchemaError = z.object({
 
 export type MovieError = z.infer<typeof MovieSchemaError>;
 
+export const BaseMovieSchema = z.object({
+  adult: z.boolean().default(true),
+  backdrop_path: z.string().nullish().transform(appendImage),
+  genre_ids: z.array(z.number()).optional(),
+  genres: z
+    .object({
+      id: z.number(),
+      name: z.string(),
+    })
+    .array()
+    .optional(),
+  description: z.string().optional(),
+  favorite_count: z.number().int().default(0),
+  id: z.number(),
+  original_language: z.enum(langs),
+  original_title: z.string(),
+  overview: z.string(),
+  popularity: z.number(),
+  poster_path: z.string().nullish().transform(appendImage),
+  release_date: z.string(),
+  title: z.string(),
+  video: z.boolean(),
+  vote_average: z.number(),
+  vote_count: z.number(),
+});
+
 export const MovieSchema = z.union([
-  z.object({
-    adult: z.boolean().default(true),
-    backdrop_path: z.string().nullish().transform(appendImage),
-    genre_ids: z.array(z.number()),
-    description: z.string().optional(),
-    favorite_count: z.number().int().default(0),
-    id: z.number(),
-    original_language: z.enum(langs),
-    original_title: z.string(),
-    overview: z.string(),
-    popularity: z.number(),
-    poster_path: z.string().nullish().transform(appendImage),
-    release_date: z.string(),
-    title: z.string(),
-    video: z.boolean(),
-    vote_average: z.number(),
-    vote_count: z.number(),
-    hasError: z.literal(false).default(false),
-  }),
+  BaseMovieSchema.merge(
+    z.object({
+      hasError: z.literal(false).default(false),
+    }),
+  ),
   MovieSchemaError,
 ]);
 
