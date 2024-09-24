@@ -1,10 +1,15 @@
 "use client";
 
-import { MenuItem, Select } from "@mui/material";
+import {
+  MenuItem,
+  Select,
+  FormControl,
+  TextField,
+  InputAdornment,
+} from "@mui/material";
 import React, { useEffect, useState } from "react";
 import countries from "../../../public/countries.json";
 import parsePhoneNumber, { CountryCode } from "libphonenumber-js";
-import TextField from "@mui/material/Select";
 import Image from "next/image";
 import styles from "./styles.module.css";
 
@@ -13,6 +18,7 @@ const InputStyle = {
   color: "black",
   borderRadius: "10px",
   margin: "10px 0px",
+  width: "100%",
 };
 
 interface CountryOpt {
@@ -28,6 +34,8 @@ interface Props {
 
 function PhoneInput({ onChange }: Props): React.JSX.Element {
   const [contry, setContry] = useState<CountryOpt>();
+
+  const [rawPhone, setRawPhone] = useState("");
 
   const [phone, setPhone] = useState("");
 
@@ -63,6 +71,12 @@ function PhoneInput({ onChange }: Props): React.JSX.Element {
   };
 
   const handlerChangeTextField = (e): void => {
+    if (Number.isNaN(Number(e.target.value))) {
+      return;
+    }
+
+    setRawPhone(String(e.target.value));
+
     const phoneProxy = parsePhoneNumber(
       String(e.target.value),
       contry?.code,
@@ -73,33 +87,43 @@ function PhoneInput({ onChange }: Props): React.JSX.Element {
 
   return (
     <div className={styles.PhoneInputContainer}>
-      <Select
-        labelId="demo-simple-select-filled-label"
-        id="demo-simple-select-filled"
-        value={contry?.value}
-        onChange={handlerSetContry}
-        sx={InputStyle}
-      >
-        {contriesOptions.map((codes) => {
-          return (
-            <MenuItem value={codes.value}>
-              <Image
-                src={codes.icon}
-                alt={codes.label}
-                width={50}
-                height={50}
-                style={{ objectFit: "contain" }}
-              />
-            </MenuItem>
-          );
-        })}
-      </Select>
+      <FormControl size={contry ? "small" : "medium"}>
+        <Select
+          labelId="demo-simple-select-filled-label"
+          id="demo-simple-select-filled"
+          onChange={handlerSetContry}
+          sx={InputStyle}
+        >
+          {contriesOptions.map((codes) => {
+            return (
+              <MenuItem
+                value={codes.value}
+                sx={{ display: "flex", justifyContent: "center" }}
+              >
+                <Image
+                  src={codes.icon}
+                  alt={codes.label}
+                  width={30}
+                  height={30}
+                />
+              </MenuItem>
+            );
+          })}
+        </Select>
+      </FormControl>
       <TextField
-        placeholder={contry?.value}
-        type="phone"
         required
+        value={rawPhone}
         onChange={handlerChangeTextField}
+        error={!parsePhoneNumber(String(rawPhone), contry?.code)?.isValid()}
         sx={InputStyle}
+        slotProps={{
+          input: {
+            startAdornment: (
+              <InputAdornment position="start">{contry?.value}</InputAdornment>
+            ),
+          },
+        }}
       />
     </div>
   );

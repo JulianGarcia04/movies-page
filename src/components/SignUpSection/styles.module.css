@@ -1,12 +1,14 @@
 .SignUpContainer {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .SignUpStepContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .ButtonLabel {

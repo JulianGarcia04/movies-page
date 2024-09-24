@@ -10,3 +10,7 @@ tmdb_api.interceptors.request.use((req) => {
   req.headers.setAuthorization(`Bearer ${env.MOVIES_API_KEY}`);
   return req;
 });
+
+export const custom_api = axios.create({
+  baseURL: env.CUSTOM_API_URL,
+});

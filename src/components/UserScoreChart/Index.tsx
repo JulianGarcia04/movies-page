@@ -7,15 +7,21 @@ interface Props {
   score: number;
   textStyle?: CSSProperties;
   style?: CSSProperties;
+  responsive?: boolean;
 }
 
-function UserScoreChart({ score, textStyle, style }: Props): React.JSX.Element {
+function UserScoreChart({
+  score,
+  responsive,
+  textStyle,
+  style,
+}: Props): React.JSX.Element {
   return (
     <div style={{ width: "auto", ...style }}>
       <Circle
         animate={true}
         animationDuration="1s"
-        responsive={false}
+        responsive={responsive}
         progress={score}
         progressColor="#4DA14F"
         textColor="#fff"

@@ -4,7 +4,7 @@ import React, { ErrorInfo } from "react";
 
 interface Props {
   children: React.ReactNode;
-  fallback: React.ReactNode;
+  fallback?: React.ReactNode;
 }
 
 class ErrorBoundary extends React.Component<Props, { hasError: boolean }> {
@@ -27,7 +27,7 @@ class ErrorBoundary extends React.Component<Props, { hasError: boolean }> {
 
   public override render(): React.ReactNode {
     // Check if the error is thrown
-    if (this.state.hasError) {
+    if (this.state.hasError && this.props.fallback) {
       // You can render any custom fallback UI
       return this.props.fallback;
     }

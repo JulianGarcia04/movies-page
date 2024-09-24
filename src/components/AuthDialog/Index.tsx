@@ -65,7 +65,7 @@ function AuthDialog({ open, handlerOpen }: Props): React.JSX.Element {
         ></Box>
 
         <div className={styles.AuthContainer}>
-          <div>
+          <div className="full-width">
             <Button
               variant="outlined"
               sx={{
@@ -98,11 +98,15 @@ function AuthDialog({ open, handlerOpen }: Props): React.JSX.Element {
                 Log In
               </Button>
             </ButtonGroup>
-            {step === "sign-up" ? <SignUpSection /> : <LoginSection />}
+            {step === "sign-up" ? (
+              <SignUpSection onSignUp={() => setStep("login")} />
+            ) : (
+              <LoginSection />
+            )}
           </div>
         </div>
 
-        <Card sx={{ maxWidth: 345, backgroundColor: "#1C1C1C" }}>
+        <Card sx={{ width: "50%", backgroundColor: "#1C1C1C" }}>
           <CardContent
             sx={{
               display: "flex",
@@ -120,6 +124,7 @@ function AuthDialog({ open, handlerOpen }: Props): React.JSX.Element {
               alt="auth_image"
               width={200}
               height={400}
+              style={{ width: "auto" }}
             ></Image>
           </CardContent>
         </Card>

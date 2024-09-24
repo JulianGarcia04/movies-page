@@ -8,6 +8,7 @@ const InputStyle = {
   color: "black",
   borderRadius: "10px",
   margin: "10px 0px",
+  width: "100%",
 };
 
 function LoginSection(): React.JSX.Element {

@@ -18,11 +18,11 @@ function Header(): React.JSX.Element {
             alt="quickbet-logo"
             width={70}
             height={40}
-            style={{ objectFit: "contain" }}
+            style={{ objectFit: "contain", width: "100%" }}
           />
 
           <ul>
-            <li>
+            <li style={{ width: "100%" }}>
               <Link href="/popular">Popular</Link>
             </li>
             <li>

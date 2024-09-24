@@ -49,7 +49,11 @@ const MovieCard: React.FC<MovieCardProps> = ({
         <p className={styles.releaseDate}>{releaseDate}</p>
         <div className={styles.ratingContainer}>
           {rating ? (
-            <UserScoreChart score={rating} style={{ width: "20%" }} />
+            <UserScoreChart
+              score={rating}
+              responsive
+              style={{ width: "20%" }}
+            />
           ) : null}
 
           <button className={styles.favoriteButton}>
