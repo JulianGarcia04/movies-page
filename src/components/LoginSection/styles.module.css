@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+.LoginStepContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .ButtonLabel {
   width: auto;
 }

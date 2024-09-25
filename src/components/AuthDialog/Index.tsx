@@ -75,6 +75,7 @@ function AuthDialog({ open, handlerOpen }: Props): React.JSX.Element {
                 textTransform: "none",
               }}
               startIcon={<IoArrowBackCircleOutline />}
+              onClick={() => handlerOpen(false)}
             >
               Back
             </Button>
@@ -101,7 +102,7 @@ function AuthDialog({ open, handlerOpen }: Props): React.JSX.Element {
             {step === "sign-up" ? (
               <SignUpSection onSignUp={() => setStep("login")} />
             ) : (
-              <LoginSection />
+              <LoginSection onLogin={() => handlerOpen(false)} />
             )}
           </div>
         </div>
