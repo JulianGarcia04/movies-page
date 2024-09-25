@@ -109,6 +109,7 @@ function LoginSection({ onLogin }: Props): React.JSX.Element {
               color="#F0B90B"
               textColor="white"
               label="Login"
+              isDisabled={(code?.length ?? 0) > 6 || (code?.length ?? 0) <= 0}
               endIcon={<BsTicketPerforated className={styles.ButtonIcon} />}
             />
           </form>

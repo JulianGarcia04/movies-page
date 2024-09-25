@@ -28,7 +28,7 @@ function SignUpSection({ onSignUp }: Props): React.JSX.Element {
 
   const [userFormData, _] = useState(new FormData());
 
-  const handlerAction = async (formData: FormData): Promise<void> => {
+  const handlerAction = async (): Promise<void> => {
     await action(userFormData);
 
     if (!onSignUp) {
