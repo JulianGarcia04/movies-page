@@ -10,6 +10,7 @@ import {
 import { custom_api } from "@/utils/axios";
 import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
+import { setCookie } from "cookies-next";
 
 export const LoginFirstStep = async (
   formData: FormData,
@@ -33,23 +34,15 @@ export const LoginFirstStep = async (
 
 export const LoginSecondStep = async (formData: FormData): Promise<void> => {
   try {
-    const cookieStore = cookies();
-
     const rawFormData = Object.fromEntries(formData.entries());
 
-    // eslint-disable-next-line no-console
-    console.log(rawFormData);
-
     const body = LoginSecondStepRequestSchema.parse(rawFormData);
-
-    // eslint-disable-next-line no-console
-    console.log(body);
 
     const req = await custom_api.post("/auth/login/verify", body);
 
     const data = LoginSecondStepResponseSchema.parse(req.data);
 
-    cookieStore.set("auth", JSON.stringify(data));
+    setCookie("auth", JSON.stringify(data), { cookies, maxAge: 60 * 60 * 24 });
 
     revalidatePath("/", "layout");
   } catch (error) {

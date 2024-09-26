@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { UserRequestSchema } from "../User";
+import { UserSchema } from "../User";
 
 export const LoginFirstStepRequestSchema = z.object({
   email: z.string().email(),
@@ -26,5 +26,5 @@ export const LoginSecondStepRequestSchema = z.object({
 
 export const LoginSecondStepResponseSchema = z.object({
   authToken: z.string(),
-  user: UserRequestSchema,
+  user: UserSchema,
 });

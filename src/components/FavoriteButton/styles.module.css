@@ -1,0 +1,17 @@
+.favoriteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.heartIcon {
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.favoriteButton:hover .heartIcon {
+  color: #ff4081;
+}

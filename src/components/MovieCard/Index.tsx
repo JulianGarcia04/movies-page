@@ -1,13 +1,11 @@
-"use client";
-
 // MovieCard.tsx
 import React from "react";
 import styles from "./styles.module.css";
-import { FaHeart } from "react-icons/fa";
 import Image from "next/image";
 import Error from "./Error";
-import { useRouter } from "next/navigation";
 import UserScoreChart from "../UserScoreChart/Index";
+import FavoriteButton from "../FavoriteButton/Index";
+import Link from "next/link";
 
 interface MovieCardProps {
   id: number;
@@ -26,14 +24,12 @@ const MovieCard: React.FC<MovieCardProps> = ({
   posterUrl,
   hasError,
 }) => {
-  const { push } = useRouter();
-
   if (hasError) {
     return <Error />;
   }
 
   return (
-    <div className={styles.card} onClick={() => push(`/${id}`)}>
+    <Link href={`/${id}`} className={styles.card}>
       <div className={styles.posterContainer}>
         <Image
           src={posterUrl ?? "/movie-placeholder.png"}
@@ -56,12 +52,10 @@ const MovieCard: React.FC<MovieCardProps> = ({
             />
           ) : null}
 
-          <button className={styles.favoriteButton}>
-            <FaHeart />
-          </button>
+          <FavoriteButton movieID={id} />
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

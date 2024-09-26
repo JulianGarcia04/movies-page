@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./styles.module.css";
 import { tmdb_api } from "@/utils/axios";
 import { BaseMovieSchema } from "@/models/Movie";
-import { FaHeart } from "react-icons/fa";
 import Image from "next/image";
 import UserScoreChart from "@/components/UserScoreChart/Index";
 import { IoChevronBackOutline } from "react-icons/io5";
@@ -10,6 +9,7 @@ import MoviesCarrouselContainer from "@/components/MoviesCarrouselContainer/Inde
 import ScrollableContent from "@/components/ScrollableContent/Index";
 import { GetKeywordsResponseSchema } from "@/models/common/GetKeywords";
 import Link from "next/link";
+import FavoriteButton from "@/components/FavoriteButton/Index";
 
 interface Props {
   params: {
@@ -69,9 +69,7 @@ export default async function Home({
                 <UserScoreChart score={Math.round(movie.vote_average * 10)} />
                 <span className={styles.scoreLabel}>Users Score</span>
               </div>
-              <button className={styles.favoriteButton}>
-                <FaHeart size={"30px"} />
-              </button>
+              <FavoriteButton movieID={Number(params.movieID)} />
             </div>
             <div className={styles.tags}>
               {keyswords.keywords.map((tag) => (

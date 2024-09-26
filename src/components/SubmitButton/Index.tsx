@@ -1,5 +1,10 @@
 "use client";
-import React, { CSSProperties, useEffect, useRef } from "react";
+import React, {
+  CSSProperties,
+  MouseEventHandler,
+  useEffect,
+  useRef,
+} from "react";
 import { Button } from "@mui/material";
 import CircularProgress from "@mui/material/CircularProgress";
 
@@ -17,7 +22,7 @@ interface PropsComponent {
   style?: CSSProperties;
   textColor?: string;
   onChangeLoading?: () => void;
-  onClick?: () => void;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
 function SubmitButton({

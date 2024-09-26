@@ -1,0 +1,21 @@
+.MoviesSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 45%;
+  overflow-x: hidden;
+  margin: 22px 0px;
+  padding: 0px 10px;
+}
+
+.MoviesCarrouselSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+  scrollbar-width: none;
+}
+
+.MoviesCarrouselSection::-webkit-scrollbar {
+  display: none;
+}

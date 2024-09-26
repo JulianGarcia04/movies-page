@@ -9,3 +9,10 @@ export const UserRequestSchema = z.object({
 });
 
 export type UserRequest = z.infer<typeof UserRequestSchema>;
+
+export const UserSchema = UserRequestSchema.merge(
+  z.object({
+    id: z.string(),
+    favorite_movies: z.array(z.number()).optional(),
+  }),
+);

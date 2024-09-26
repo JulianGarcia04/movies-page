@@ -56,15 +56,7 @@ export default async function Home({
         height: "100%",
       }}
     >
-      <div
-        style={{
-          background: "rgb(38 38 38)",
-          height: "100%",
-          width: "20%",
-        }}
-      >
-        <FiltersSection genres={genres} />
-      </div>
+      <FiltersSection genres={genres} />
       {customMovies?.results && customParam && filter ? (
         <CustomMoviesSection
           customMovies={customMovies.results}
