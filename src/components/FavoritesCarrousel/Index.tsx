@@ -6,7 +6,7 @@ import { tmdb_api } from "@/utils/axios";
 import { MovieSchema, Movie } from "@/models/Movie";
 import styles from "./styles.module.css";
 import ScrollableContent from "../ScrollableContent/Index";
-import MovieCard from "../MovieCard";
+import MovieCard from "../MovieCard/Index";
 
 async function FavoriteCarrousel(): Promise<React.JSX.Element | null> {
   const cookieAuth = getVerifyCookie("auth", LoginSecondStepResponseSchema, {
