@@ -2,6 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### Enviroment variables
+
+The necessary enviroment variables for use the web app in development mode
+
+```typescript
+{
+  NEXT_PUBLIC_MOVIES_API_KEY: string;
+  NEXT_PUBLIC_CUSTOM_API_URL: string;
+}
+```
+
 First, run the development server:
 
 ```bash
