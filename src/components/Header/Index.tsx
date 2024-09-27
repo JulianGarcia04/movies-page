@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "./style.module.css";
 import AuthButton from "../AuthButton/Index";
 
@@ -16,15 +15,6 @@ function Header(): React.JSX.Element {
             height={40}
             style={{ objectFit: "contain", width: "100%" }}
           />
-
-          <ul>
-            <li style={{ width: "100%" }}>
-              <Link href="/popular">Popular</Link>
-            </li>
-            <li>
-              <Link href="/favorites">Favoritos</Link>
-            </li>
-          </ul>
         </div>
         <div className={styles.HeaderUserSection}>
           <AuthButton />
