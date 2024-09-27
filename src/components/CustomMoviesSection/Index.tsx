@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import MovieCard from "../MovieCard";
+import MovieCard from "../MovieCard/Index";
 import { Movie } from "@/models/Movie";
 import ScrollableContent from "../ScrollableContent/Index";
 import { FilterQueries, FilterList } from "@/utils/FilterQueries";

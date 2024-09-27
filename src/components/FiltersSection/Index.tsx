@@ -3,7 +3,7 @@
 import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import styles from "./styles.module.css";
-import Select from "@/components/Select";
+import Select from "@/components/Select/Index";
 import { GetMoviesGenresByListResponse } from "@/models/common/GetGenres";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useDebouncedCallback } from "use-debounce";

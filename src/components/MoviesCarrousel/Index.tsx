@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import MovieCard from "@/components/MovieCard";
+import MovieCard from "@/components/MovieCard/Index";
 import styles from "./style.module.css";
 import { tmdb_api } from "@/utils/axios";
 import ScrollableContent from "../ScrollableContent/Index";
