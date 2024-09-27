@@ -17,7 +17,7 @@ interface Props {
 export default async function Home({
   searchParams,
 }: Props): Promise<JSX.Element> {
-  const { genres } = await tmdb_api.get("genre/movie/list").then((res) => {
+  const { genres } = await tmdb_api.get("genre/movie/lis").then((res) => {
     return GetMoviesGenresByListResponseSchema.parse(res.data);
   });
 
